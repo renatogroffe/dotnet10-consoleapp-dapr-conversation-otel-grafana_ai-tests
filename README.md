@@ -10,3 +10,11 @@ Testes com o Microsoft Foundry:
 Trace gerado:
 
 ![Trace do Microsoft Foundry](img/dapr-foundry-02.png)
+
+Testes com o Grok:
+
+![Grok](img/dapr-grok-01.png)
+
+Trace gerado:
+
+![Trace do Grok](img/dapr-grok-02.png)
