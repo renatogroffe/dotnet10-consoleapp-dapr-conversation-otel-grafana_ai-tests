@@ -1,0 +1,1 @@
+dapr run --app-id ConsoleAppDaprTestConversation --resources-path ../dapr/components dotnet run

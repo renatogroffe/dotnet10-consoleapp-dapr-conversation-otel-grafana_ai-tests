@@ -1,0 +1,16 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: grok-llm
+spec:
+  type: conversation.openai
+  version: v1
+  metadata:
+  - name: key
+    value: "GROK_API_KEY"
+  - name: endpoint
+    value: "https://api.groq.com/openai/v1"
+  - name: model
+    value: "MODEL_NAME"
+  - name: apiType
+    value: "open_ai"
